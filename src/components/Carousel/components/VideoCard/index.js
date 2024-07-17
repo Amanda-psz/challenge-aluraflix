@@ -1,5 +1,5 @@
 import React from "react";
-import { VideoCardGroupContainer } from './styles';
+import { VideoCardContainer } from '././styles';
 
 function getYouTubeId(youtubeURL) {
     return youtubeURL
@@ -10,7 +10,7 @@ function getYouTubeId(youtubeURL) {
 function VideoCard ({ videoTitle, videoURL, categoryColor }) {
     const image = `https://img.youtube.com/vi/${getYouTubeId(videoURL)}/maxresdefault.jpg`
     return (
-        <VideoCardGroupContainer
+        <VideoCardContainer
             url={image}
             href={videoURL}
             target="_blank"
