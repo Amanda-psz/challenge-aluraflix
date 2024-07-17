@@ -9,7 +9,6 @@ const Botao = styled.button`
     font-weight: bold;
     text-decoration: none;
     transition: opacity .2s;
-
     &:hover,
     &:focus {
        opacity: .5;
